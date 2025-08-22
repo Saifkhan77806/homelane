@@ -12,6 +12,8 @@ import EndToEndSection from "./EndToEndSection"
 import ExperineceThatYouWillLove from "./ExperineceThatYouWillLove"
 import OurTrustedPartner from "./OurTrustedPartner"
 import FAQ from "./FAQ"
+import LabelSection from "./LabelSection"
+import Footer from "./Footer"
 
 
 const Home = () => {
@@ -37,6 +39,9 @@ const Home = () => {
           <ExperineceThatYouWillLove />
           <OurTrustedPartner />
           <FAQ />
+          <LabelSection />
+          <Footer />
+
 
     </div>
   )

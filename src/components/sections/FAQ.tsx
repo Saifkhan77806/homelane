@@ -104,7 +104,7 @@ const FaqQuesAns: { question: string, answer: React.ReactNode }[] = [
 const FAQ = () => {
 
     return (
-        <div className='my-4 px-3 md:px-9 border-bottom py-5'>
+        <div className='mt-4 px-3 md:px-9 border-bottom py-5'>
             <h1 className='text-center text-2xl font-bold'>Frequently Asked Questions.</h1>
             <AccordianCard accordionData={FaqQuesAns}  />
         </div>
